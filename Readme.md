@@ -3,7 +3,7 @@ Shownotes for the great [Haskellcast](http://www.haskellcast.com/)
 
 By [Rein Henrichs](https://twitter.com/ReinH) and [Chris Forno](https://twitter.com/jekor)
 
-- Episode 7 - Chris Done on Compiling to JavaScript and SQL
+- [Episode 7 - Chris Done on Compiling to JavaScript and SQL](./episode7.md)
 - Episode 6 - Gabriel Gonzalez and Michael Snoyman on Pipes and Conduit
 - Episode 5 - Brent Yorgey on Diagrams and the Typeclassopedia
 - Episode 4 - Simon Marlow on Parallelism and Concurrency
