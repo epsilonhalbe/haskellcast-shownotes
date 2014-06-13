@@ -3,7 +3,7 @@ HC007 - Chris Done on Compiling to JavaScript and SQL
 
 Intro
 -----
-
+- Chris Done [blog](http://chrisdone.com/) [@christopherdone](https://twitter.com/christopherdone)
 - [C](http://en.wikipedia.org/wiki/C_programming_language)
 - [Scheme](https://en.wikipedia.org/wiki/Scheme\_(programming\_language))
 - [lambdas](https://en.wikipedia.org/wiki/Lambda\_calculus)
@@ -75,154 +75,155 @@ GHC compiling steps
 
 Static typing for JavaScript
 ----------------------------
-[Typescript](http://www.typescriptlang.org/)
-[Purescript](http://functorial.com/purescript/)
-[Roy](http://roy.brianmckenna.org/)
 
-Overhead - Performance - Debugging
+- [Typescript](http://www.typescriptlang.org/)
+- [Purescript](http://functorial.com/purescript/)
+- [Roy](http://roy.brianmckenna.org/)
 
-[Segfault](https://en.wikipedia.org/wiki/Segmentation_fault)
+- Overhead - Performance - Debugging
 
-[Source maps](http://code.google.com/p/closure-compiler/wiki/SourceMaps) (help with debugging)?
-GHCi (+ debugging)
-Chris Forno - Fay videos [part1](http://www.youtube.com/watch?v=hS52OdD6mdo),
-[part2](http://www.youtube.com/watch?v=PnMxT3cjYt8)
+- [Segfault](https://en.wikipedia.org/wiki/Segmentation_fault)
+
+- [Source maps](http://code.google.com/p/closure-compiler/wiki/SourceMaps) (help with debugging)?
+- GHCi (+ debugging)
+- Chris Forno - Fay videos [part1], [part2]
 
 Compiling Haskell to JavaScript
 -------------------------------
 
-[History of JavaScript](https://brendaneich.com/2010/07/a-brief-history-of-javascript/) (talk)
-Native client
-Virtual machine
-[AHC](https://github.com/strake/ahc)
+- [History of JavaScript](https://brendaneich.com/2010/07/a-brief-history-of-javascript/) (talk)
+- Native client
+- Virtual machine
+- [AHC](https://github.com/strake/ahc)
 
-Adoption of Fay
-FP Haskell Center™ (15000 lines)
-Not so fast anymore
-[Adam Bergmark](https://github.com/bergmark)
+- Adoption of Fay
+- FP Haskell Center™ (15000 lines)
+- Not so fast anymore
+- [Adam Bergmark](https://github.com/bergmark)
 
 Haskell & Modulesystem
 ----------------------
 
-[Gzip](www.gzip.org)
-[Closure](https://developers.google.com/closure/compiler/) (compiler)
-[Clojurescript](https://github.com/clojure/clojurescript)
-[ACL]()
+- [Gzip](www.gzip.org)
+- [Closure](https://developers.google.com/closure/compiler/) (compiler)
+- [Clojurescript](https://github.com/clojure/clojurescript)
+- ACL
 
 TryHaskell
 ===============
 
-Tryruby (by \_y)
-Lamdabot
-Tryclojure
-Tryarc
-Trygithub
-Remote code evaluation - malicious attacks
-Mueval
-Common lisp
-Sandbox
-Impure io
+- [Tryruby](http://tryruby.org/) by \_y
+- Lamdabot: [haskellWiki](http://www.haskell.org/haskellwiki/Lambdabot),[hackage](http://hackage.haskell.org/package/lambdabot)
+- [Try Clojure](http://tryclj.com/)
+- [Tryarc](http://tryarc.org/)
+- [Try Git](https://try.github.io/)
+- Remote code evaluation - malicious attacks
+- Mueval
+- [Common lisp](https://en.wikipedia.org/wiki/Common_Lisp)
+- [Sandbox](https://en.wikipedia.org/wiki/Sandbox\_(computer\_security))
+- Impure io
 
-Pure io (blog)
-Free monad
-Russel o'connor (free monad implementation)
-Laws (monad laws)
+
+- Pure io (blog)
+- Free monad
+- Russel o'connor (free monad implementation)
+- Laws (monad laws)
 
 How does Chris Done learn new
 ------------------------------
-Free monads - Gabriel Gonzalez' tutorials
-Tutorials
-GHCi + :t,:k
+- Free monads - Gabriel Gonzalez' tutorials
+- Tutorials
+- GHCi + :t,:k
 
 > Connor McBride: "types should guide, not slap you on the wrist"
 
 ### Funky functions?
 
-Add function parameters until kind = *
-Polymorphism
-Arrow
-Hakyll
-Jasper van der euicht
-Bimap
-Bifunctor
+- Add function parameters until kind = *
+- Polymorphism
+- Arrow
+- Hakyll
+- Jasper van der euicht
+- Bimap
+- Bifunctor
 
-Web development
+- Web development
 
 Haskelldb
 ---------
 
-Databases
+- Databases
 
-Combinators
-Select/Restrict/Project
-HList
-SQL
-Type level programming (blog)
-Monad for composition - pagination
+- Combinators
+- Select/Restrict/Project
+- HList
+- SQL
+- Type level programming (blog)
+- Monad for composition - pagination
 
-Active record
-ORM
-LINQ
+- Active record
+- ORM
+- LINQ
 
-Relation database - original paper??
+- Relation database - original paper??
 
 Rein Henrichs on Ruby
 ----------------------
 
-Algebra
-Relational algebra
-Asymptotic
-Caching
-Cache evacuation
-Arel
+- Algebra
+- Relational algebra
+- Asymptotic
+- Caching
+- Cache evacuation
+- Arel
 
 Haskell DB - again
 -----------------
 
-Haskell DB does not optimize queries
-PostgreSQL
+- Haskell DB does not optimize queries
+- PostgreSQL
 
-Optimization
-Plated
-Lens
-Term replacement
-Uniplate
-Traverse
-Fixpoint
+- Optimization
+- Plated
+- Lens
+- Term replacement
+- Uniplate
+- Traverse
+- Fixpoint
 
-Equelito
-Persistent (no joins)
-Custom queries
+- Equelito
+- Persistent (no joins)
+- Custom queries
 
 Hell - haskell shell
 --------------------
 
 ###How to launch program
 
-a) name bind program
-b) string -> system
-c) all of `/usr/bin/` -> bind in scope
+1. name bind program
+2. string -> system
+3. all of `/usr/bin/` -> bind in scope
 
 Shell scripting
 ---------------
 
-Bash
-Cabal
-Shebang
-Dbus
-Pipes (bash)
-Pipes/ conduit
-Tail f > grep
-Shell based on pipes (gabriel)
-Shelly
-Reader monad
+- Bash
+- Cabal
+- Shebang
+- Dbus
+- Pipes (bash)
+- Pipes/ conduit
+- Tail f > grep
+- Shell based on pipes (gabriel)
+- Shelly
+- Reader monad
 
 Hulk - irc server
 -----------------
 
-Sockets connections threads
-MVar
-Resource handling
+- Sockets connections threads
+- MVar
+- Resource handling
 
 Emacs
 =====
@@ -246,19 +247,22 @@ Emacs
 Shoutouts - stuff to mention
 ----------------------------
 
-Logic language - parsed with attempto controled english
-Datalog
-Interactive book
+- Logic language - parsed with attempto controled english
+- Datalog
+- Interactive book
 
-Stackage (blog) to come
-Loeb
+- Stackage (blog) to come
+- Loeb
 
 Question
 ========
 
-If you take a möbius strip cut in center
-a) 2 Möbius stip
-b) 1 Möbius stip
-c) 1 Tangled not möbius strip
+If you take a möbius strip cut along the center line what do you get?
+
+1. 2 Möbius stip
+2. 1 Möbius stip
+3. 1 Tangled not möbius strip
 
 
+[part1]: http://www.youtube.com/watch?v=hS52OdD6mdo
+[part2]: http://www.youtube.com/watch?v=PnMxT3cjYt8
